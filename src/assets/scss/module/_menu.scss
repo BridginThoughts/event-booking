@@ -1,0 +1,38 @@
+#navbarCollapse {
+    //  display: inline-block;
+    float: right;
+    margin-top: 30px;
+
+    ul {
+        margin-bottom: 0;
+        width: 100%;
+        flex-direction: row;
+        
+        li{
+            float: left;
+            padding: 0 20px;
+
+            a{
+                color: $white;
+                border-bottom: 5px solid transparent;
+                padding-bottom: 27px;
+
+                &:hover, &.active{
+                    text-decoration: none;
+                    border-bottom: 5px solid $tertiary-color;
+                }
+            }
+        }
+    }
+}
+
+
+
+@media (max-width: 767px) {
+    #navbarCollapse{
+        margin-top: 0;
+        float: none;
+        
+        
+    }
+}

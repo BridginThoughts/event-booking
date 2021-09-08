@@ -1,0 +1,60 @@
+{
+    "events": [
+        {
+            "id": "ev1",
+            "name": "Lorem ipsum dolor",
+            "date": "21 Oct, 2021",
+            "seats": 12,
+            "image": "img1.jpg"
+        },
+        {
+            "id": "ev2",
+            "name": "Nullam et iaculis nibh",
+            "date": "21 Oct, 2021",
+            "seats": 50,
+            "image": "img2.jpg"
+        },
+        {
+            "id": "ev3",
+            "name": "Suspendisse malesuada purus",
+            "date": "21 Oct, 2021",
+            "seats": 0,
+            "image": "img3.jpg"
+        },
+        {
+            "id": "ev4",
+            "name": "Pellentesque habitant morbi",
+            "date": "21 Oct, 2021",
+            "seats": 97,
+            "image": "img4.jpg"
+        },
+        {
+            "id": "ev5",
+            "name": "Nulla sed lorem sed",
+            "date": "21 Oct, 2021",
+            "seats": 46,
+            "image": "img5.jpg"
+        },
+        {
+            "id": "ev6",
+            "name": "Nullam varius metus et",
+            "date": "21 Oct, 2021",
+            "seats": 24,
+            "image": "img6.jpg"
+        },
+        {
+            "id": "ev7",
+            "name": "Nulla id magna et augue",
+            "date": "21 Oct, 2021",
+            "seats": 44,
+            "image": "img7.jpg"
+        },
+        {
+            "id": "ev8",
+            "name": "Morbi ut eros non",
+            "date": "21 Oct, 2021",
+            "seats": 126,
+            "image": "img8.jpg"
+        }
+    ]
+}

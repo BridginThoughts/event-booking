@@ -1,0 +1,21 @@
+.header {
+    background: $secondary-color;
+    color: $white;
+
+    .header__logo {
+        padding: 15px 0;
+
+        h1 {
+            margin-top: 8px;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .header {
+        .header__logo {
+            padding: 15px;
+
+        }
+    }
+}

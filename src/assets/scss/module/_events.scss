@@ -1,0 +1,187 @@
+.search-wrapper {
+    background-color: $quaternary-color;
+    padding: 25px 0;
+
+    .search-form {
+        input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid darken($quaternary-color, 15%);
+            border-radius: 5px;
+
+        }
+    }
+}
+
+.events {
+    .event {
+        padding-bottom: 30px;
+        min-height: 300px;
+
+
+        .event__wrapper {
+            border: 1px solid $quaternary-color;
+            border-radius: 4px;
+            overflow: hidden;
+            box-shadow: 0 5px 5px 0px $quaternary-color;
+        }
+
+        .event__img {
+            height: 150px;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        h2 {
+            width: 100%;
+            padding: 10px 15px;
+            min-height: 50px;
+            font-weight: normal;
+            font-size: 24px;
+            min-height: 80px;
+            
+        }
+
+        .event__date {
+            float: left;
+            font-size: 16px;
+            padding-left: 15px;
+        }
+
+        .event__seats {
+            float: right;
+            font-size: 16px;
+            padding-right: 15px;
+
+            .event__found-seats {
+                font-weight: 700;
+                color: $secondary-color;
+            }
+
+        }
+
+        button.event__sold-out {
+            width: calc(100% - 30px);
+            //margin: 0 auto;
+            margin: 15px;
+            font-size: 16px;
+            color: lighten($secondary-color,20%);
+            background-color: $white;
+            border: 2px solid lighten($secondary-color,20%);
+            border-radius: 4px;
+            padding: 10px 0;
+
+            span {
+                font-family: 'Open Sans', sans-serif;
+                font-weight: 600;
+            }
+        }
+
+        a.event__book-event {
+            text-align: center;
+            width: calc(100% - 30px);
+            //margin: 0 auto;
+            margin: 15px;
+            color: $white;
+            border: 2px solid $primary-color;
+            border-radius: 4px;
+            padding: 10px 0;
+            display: block;
+            font-size: 16px;
+
+            span {
+                padding-top: 1px;
+                font-family: 'Open Sans', sans-serif;
+                font-weight: 600;
+            }
+
+            &:hover {
+                color: $primary-color;
+                background-color: $white;
+
+            }
+        }
+
+    }
+
+}
+
+
+.booking{
+    text-align: center;
+    margin: 0 auto;
+
+    .booking__seats-available{
+        padding: 0 0 15px 0;
+        border-bottom: 1px solid $info-color;
+        margin-bottom: 30px;
+    }
+
+    .booking__form{
+        text-align: left;
+        width: 100%;
+
+
+        label{
+            width: 100%;
+            display: block;
+            margin-top: 15px;
+            
+
+        }
+        input{
+            display: block;
+            width: 100%;
+            border: 1px solid darken($quaternary-color,10%);
+            border-radius:4px ;
+            padding: 10px 5px;
+        }
+
+        .booking__form-error{
+            color: $alert-color;
+            font-size: 14px;
+        }
+
+        button{
+            margin-top: 15px;
+            &.booking__form-submit{
+                margin-right: 30px;
+            }
+        }   
+        
+    }
+    
+}
+
+.booked{
+    padding-top: 60px;
+    text-align: center;
+    width: 33%;
+    margin: 0 auto;
+
+    .booked__seats{
+        .seats{
+            color: $info-color;
+            font-weight: 700;
+        }
+    }
+
+    .booked__event{
+        border-top: 1px solid $quaternary-color;
+        border-bottom: 1px solid $quaternary-color;
+        margin: 20px 0;
+        padding: 0 0 10px 0;
+
+        h2{
+            margin: 10px 0;
+        }
+
+        
+
+    }
+    button.btn-primary{
+        margin-right: 25px;
+    }
+
+    
+}
